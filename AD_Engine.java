@@ -37,14 +37,14 @@ public class AD_Engine {
 			puerto_weather = Integer.parseInt(args[5]);
 			System.out.println("El puerto de AD_Weather es " + puerto_weather);
 
-			Timer timer = new Timer();
-			// Helper class extends TimerTask
-			TimerTask task =  new TimerTask() {
-				public void run() {
-					System.out.println("Hola");
-					cancel();
-				}
-			};
+			// Timer timer = new Timer();
+			// // Helper class extends TimerTask
+			// TimerTask task =  new TimerTask() {
+			// 	public void run() {
+			// 		System.out.println("Hola");
+			// 		cancel();
+			// 	}
+			// };
 	
 			
 			/*
@@ -52,7 +52,7 @@ public class AD_Engine {
 			*/	
 			for(;;)
 			{
-				timer.schedule(task, 1, 1);
+				// timer.schedule(task, 1, 1);
 				/*
 				* Se espera un cliente que quiera conectarse
 				*/
